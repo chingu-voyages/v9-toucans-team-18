@@ -1,0 +1,29 @@
+@media(max-width: 960px) {
+    .banner {
+      height: 70vh;
+    }
+  
+    .hide-sm {
+      display: none;
+    }
+
+    .banner-top img {
+        top: 30%;
+        left: 5%;
+        transform: translate(0);
+    }
+    .banner-content{
+        margin-top: 5rem;
+    }
+    .banner-content h1{
+        font-size: 2.5rem;
+        line-height: 1;
+    }
+    .banner-content p {
+        font-size: 1.2rem;
+    }
+    .btn-xl {
+        font-size: 1.5rem;
+        padding: 1rem 1.5rem;
+    }
+  }
